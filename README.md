@@ -1,18 +1,38 @@
-## Getting Started
+# Watchlist JDBC CRUD Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **menu-driven Java JDBC application** that performs **CRUD operations** on a MySQL database to manage a movie watchlist.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
+- Add movie (Create)
+- View movies (Read)
+- Update movie details (Update)
+- Delete movie with confirmation (Delete)
+- Console-based menu system
+- Uses PreparedStatement for database operations
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Technologies Used
+- Java (JDK 21)
+- JDBC
+- MySQL
+- MySQL Connector/J
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## Database
+**Database:** movielistdb  
+**Table:** watchlist
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## How to Run
+1. Create the database and table
+2. Add MySQL Connector/J to the classpath
+3. Compile and run the program
+
+```bash
+javac WatchlistApp.java
+java WatchlistApp
