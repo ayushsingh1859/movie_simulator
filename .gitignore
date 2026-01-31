@@ -1,0 +1,10 @@
+# Compiled output
+bin/
+lib/
+
+# Local editor settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
